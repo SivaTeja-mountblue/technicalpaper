@@ -8,15 +8,15 @@ In this paper, we discuss how browsers render HTML, CSS, JS to DOM and the mecha
 
 ## ***2. Introduction***
 
-## 2.1 What is browser rendering?
+### 2.1 What is browser rendering?
 
 Browser rendering is a process that converts the website code like HTML, CSS, JS into interactive pages which we see on a website. Browser rendering is also known as a browser engine. There are different types of browser engines like Webkit for Apple's Safari, Blink for Chrome, and Gecko for Firefox. Browser rendering converts the data of HTML, CSS, and JS to DOM and CSSOM.
 
-## 2.2 what is DOM?
+### 2.2 what is DOM?
 
 DOM is known as Document Object Model. DOM is the structured representation of the HTML document created by the browser. It allows Javascript to manipulate, structure, and style the website. Document object is the entry point of the DOM for accessing any HTML element. DOM tree represents an HTML document as nodes. Each node is referred to as an Object.
 
- ## ***3. The mechanism behind browser rendering process:***
+## ***3. The mechanism behind browser rendering process:***
 
 * Whatever the code we have written in files HTML, CSS, JS when we try to attempt them in a web browser, the browser didn't read them directly. The first browser receives them in a binary format and sets the parser to convert the HTML  into DOM. In CSS when the parser comes across resources it will get those files, while in JS it defaults to block the HTML parser and the JS file is loaded and parsed. 
 
