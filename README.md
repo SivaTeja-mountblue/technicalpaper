@@ -2,7 +2,7 @@
 
 ## ***1. Abstract***
 
-### In this paper, we discuss how browsers render HTML, CSS, JS to DOM and the mechanism behind it. Generally when web browsers attempt to load the pages like HTML, CSS, JS it follows a certain process to convert these files into a webpage. The process need to be followed is shown in below fig
+In this paper, we discuss how browsers render HTML, CSS, JS to DOM and the mechanism behind it. Generally when web browsers attempt to load the pages like HTML, CSS, JS it follows a certain process to convert these files into a webpage. The process need to be followed is shown in below fig
 
 ![GitHub Dark](https://miro.medium.com/max/1248/1*srfAe9f1ryMc3qoMOASmhg.png) 
 
@@ -10,11 +10,11 @@
 
 ## 2.1 What is browser rendering?
 
-### Browser rendering is a process that converts the website code like HTML, CSS, JS into interactive pages which we see on a website. Browser rendering is also known as a browser engine. There are different types of browser engines like Webkit for Apple's Safari, Blink for Chrome, and Gecko for Firefox. Browser rendering converts the data of HTML, CSS, and JS to DOM and CSSOM.
+Browser rendering is a process that converts the website code like HTML, CSS, JS into interactive pages which we see on a website. Browser rendering is also known as a browser engine. There are different types of browser engines like Webkit for Apple's Safari, Blink for Chrome, and Gecko for Firefox. Browser rendering converts the data of HTML, CSS, and JS to DOM and CSSOM.
 
 ## 2.2 what is DOM?
 
-### DOM is known as Document Object Model. DOM is the structured representation of the HTML document created by the browser. It allows Javascript to manipulate, structure, and style the website. Document object is the entry point of the DOM for accessing any HTML element. DOM tree represents an HTML document as nodes. Each node is referred to as an Object.
+DOM is known as Document Object Model. DOM is the structured representation of the HTML document created by the browser. It allows Javascript to manipulate, structure, and style the website. Document object is the entry point of the DOM for accessing any HTML element. DOM tree represents an HTML document as nodes. Each node is referred to as an Object.
 
  ## ***3. The mechanism behind browser rendering process:***
 
